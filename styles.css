@@ -46,7 +46,7 @@ button {
     color: #F9FAF8;
 }
 
-.subtext {
+.subtext{
     color: #cfcfcf;
 }
 
@@ -71,4 +71,46 @@ button {
     justify-content: center;
     margin-left: 48px;
     flex: 1;
+}
+
+.box {
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    border-width: 4px;
+}
+
+.informationheader {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    margin: 48px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.boxntext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 150px;
+}
+
+.boxtext {
+    text-align: center;
+    color: #3b4757;
+    margin-top: 6px;
+}
+
+.second {
+    padding-bottom: 100px;
 }
