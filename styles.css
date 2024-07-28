@@ -37,7 +37,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-button {
+.firstbutton {
     background-color: #3882F6;
     border-radius: 6px;
     border: none;
@@ -144,6 +144,51 @@ button {
 }
 
 .quotebox {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth {
+    padding: 64px;
+    margin: auto;
+}
+
+.container {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 24px;
+    display: flex;
+    padding: 48px 125px;
+    border-radius: 8px;
+    align-items: center;
+    gap: 150px;
+}
+
+.fourth p {
+    color: #E5E7EB;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.secondbutton {
+    background-color: #3882F6;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 6px 24px;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 16px;
+}
+
+.ctatext {
     display: flex;
     flex-direction: column;
 }
