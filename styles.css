@@ -149,7 +149,7 @@ h1 {
 }
 
 .fourth {
-    padding: 64px;
+    padding: 96px;
     margin: auto;
 }
 
@@ -191,4 +191,12 @@ h4 {
 .ctatext {
     display: flex;
     flex-direction: column;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 36px;
+    font-size: 20px;
 }
